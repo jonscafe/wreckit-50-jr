@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Cat Allowed</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">No Cat Allowed</h1>
+        <div class="text-center">
+            <img src="https://i.kym-cdn.com/photos/images/original/001/390/603/947.png" alt="no-cat-allowed" style="max-width: 300px;">
+        </div>
+        <div id="result" class="text-center mb-4">
+            <h1>{{result}}</h1>
+        </div>
+        <div id="mydiv" class="text-center">
+            <form id="myForm">
+                <div class="form-group">
+                    <label for="line">Input:</label>
+                    <input type="text" id="inputstring" name="inputstring" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Allow my Cat!</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(this);
+            const lineValue = formData.get('line');
+            
+            fetch('/', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.text(); 
+                }
+                throw new Error('Network response was not ok.');
+            })
+            .then(data => {
+                document.getElementById('result').innerHTML = data;
+                console.log("Function called");
+            })
+            .catch(error => {
+                console.error('Error submitting form:', error);
+            });
+        });
+    </script>
+</body>
+</html>
