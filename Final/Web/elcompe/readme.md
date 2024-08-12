@@ -11,8 +11,7 @@ welcome to el compe's hideout
 Blackbox challenge
 
 ## Sources
-
--
+- https://stackoverflow.com/questions/12598407/why-does-php-convert-a-string-with-the-letter-e-into-a-number
 
 ## Tags
 
