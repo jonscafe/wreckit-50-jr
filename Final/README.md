@@ -1,6 +1,8 @@
 # Wreck IT 5.0 Junior Category - Final
-## Author:
+## Authors:
 - k.eii
+- wondPing
+- 1kazz
 
 ## Challs:
 - Forensic
@@ -12,3 +14,8 @@
 - Rev
   - finitstedt? again?? (EASY)
   - babysnake's revenge (EASY) 
+- Crypto
+  - master_toL (EASY)
+  - call me Manyrsa (EASY)
+- PWN
+  -  
