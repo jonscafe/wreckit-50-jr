@@ -1,0 +1,1 @@
+flag = b'WRECKIT50{c00p_c00p_c0pp3r5m1tH_R54}'
