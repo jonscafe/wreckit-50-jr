@@ -4,3 +4,4 @@
 ### Password: k.eii-w4z-h3re-onwreckit5fin4l
 ### POC:
 - uTox Profile Cache Data (Base64 encoded flag)
+- Discord as Decoy
