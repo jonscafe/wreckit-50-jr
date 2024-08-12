@@ -9,8 +9,8 @@
 
 ## Challs:
 - Forensic
-  - perpesanan
-  - sniff
+  - perpesanan (EASY)
+  - sniff (EASY)
 - Web
   - elcompe (EASY)
   - No Cat Allowed (EASY)
