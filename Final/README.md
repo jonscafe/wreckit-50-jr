@@ -5,3 +5,15 @@
 - hanz0
 - VascoZ
 - wondPing
+
+
+## Challs:
+- Forensic
+  - perpesanan
+  - sniff
+- Web
+  - elcompe (EASY)
+  - No Cat Allowed (EASY)
+- Rev
+  - finitstedt? again?? (EASY)
+  - babysnake's revenge (EASY) 
