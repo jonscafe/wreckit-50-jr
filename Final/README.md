@@ -16,7 +16,7 @@
   - babysnake's revenge (EASY) 
 - Crypto
   - master_toL (EASY)
-  - call me Manyrsa (EASY)
+  - XOR (EASY)
 - PWN
   -  xx
   -  xx
