@@ -32,4 +32,4 @@ WRECKIT50{brut3forC3_b3n1hny4_d4h_tvh_G4mp4n9}
 
 
 ## Severity
-MEDIUM
+EASY
